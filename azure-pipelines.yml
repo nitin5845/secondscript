@@ -10,8 +10,6 @@ pool:
   vmImage: 'powershell'
 
 steps:
-task: PowerShell@2
+- task: PowerShell@2
   inputs:
     filePath: 'shellscript1.sh'
-
-- 
